@@ -1,0 +1,8 @@
+{
+  "repository": "itpay-ai/compose-v4",
+  "commit": "65709382f0baf178c729b066fb5c142ae668bcc0",
+  "path": "apps/mcp/skills/itpay-services/SKILL.md",
+  "sha256": "602b3a50a4681d3393bbba7e5d9b05115dab7653a072d157db444d9496405d34",
+  "format_status": "standard Skill candidate; Doubao uploader not verified",
+  "version": "3.0.0-candidate.1"
+}
