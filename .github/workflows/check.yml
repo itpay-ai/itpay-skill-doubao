@@ -1,5 +1,13 @@
 name: Check shared Skill candidate
-on: [push, pull_request, workflow_dispatch]
+# Manual only: explain the need and obtain user approval before each Actions run.
+on:
+  workflow_dispatch:
+    inputs:
+      approval_reason:
+        description: User-approved reason for this exact run (include approval reference)
+        required: true
+        type: string
+
 permissions:
   contents: read
 jobs:
